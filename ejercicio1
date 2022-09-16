@@ -1,0 +1,15 @@
+public class coche {
+    public int puertas = 3;
+    public void agregar_puerta(){
+        this.puertas ++;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+      coche miCoche;
+      miCoche = new coche();
+      miCoche = puertas + 1;
+      return puertas;
+    }
+}
